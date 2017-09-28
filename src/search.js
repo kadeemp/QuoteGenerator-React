@@ -13,7 +13,7 @@ class Search extends Component {
     return (
       <div>
       <form onSubmit={(e) => {
-        e.preventDefault
+        e.preventDefault();
         this.props.onSubmit(this.state.searchTerm) ;
       }}>
       <input
